@@ -1,0 +1,28 @@
+#app {
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+body {
+  background: var(--white);
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: var(--black);
+}
+.mySwiper-stars {
+  z-index: -1;
+  width: 80%;
+  height: 100%;
+  box-shadow: 0 0px 0px 0px var(--black);
+  border-radius: 1rem;
+  margin-top: 3%;
+}
+.mySwiperslide-stars {
+  text-align: center;
+  background: var(--white);
+  display: flex;
+  justify-content: center;
+}

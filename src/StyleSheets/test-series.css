@@ -1,0 +1,45 @@
+#test-series-heading p{
+    font-size: 2.5rem;
+    margin-top: 7%;
+    text-align: center;
+    font-weight: 600;
+}
+#test-series-heading span{
+    color: var(--color1);
+}
+#test-series{
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.test-series1{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    min-width: 10rem;
+    max-width: 20rem;
+    height: 15%;
+    box-shadow: 0 1px 25px 0px var(--black);
+    border-radius: 1rem;
+    margin: 3% 1rem 0 0;
+    padding: 5% 5%;
+}
+.test-series-logo{
+    margin-bottom: 4%;
+}
+.test-series-name{
+    font-size: 1.5rem;
+}
+.test-series-description{
+    font-size: 0.9rem;
+}
+.test-series-join{
+    text-decoration: none;
+    color: var(--color1);
+    font-size: 1.2rem;
+    margin: 5% 0;
+}
