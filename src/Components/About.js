@@ -19,7 +19,7 @@ function About() {
         pagination={{
           clickable: true,
         }}
-        navigation={true}
+        navigation={false}
         modules={[Pagination, Navigation, HashNavigation]}
         className="mySwiper"
       >

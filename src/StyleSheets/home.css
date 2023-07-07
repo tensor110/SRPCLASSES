@@ -77,7 +77,10 @@
 #hamburger{
     display: none;
 }
-@media (max-width:700px){
+@media (max-width:860px){
+    .navbar{
+        height: 3rem;
+    }
     #hamburger{
         display: block;
     }
@@ -89,5 +92,28 @@
     }
     .dropdown-icons{
         display: block;
+    }
+    .logo img{
+        width: 12%;
+    }
+}
+@media (max-width:500px){
+    .navbar{
+        height: 2.5rem;
+    }
+    #hamburger{
+        display: block;
+    }
+    .icons{
+        display: none;
+    }
+    #login-button{
+        display: none;
+    }
+    .dropdown-icons{
+        display: block;
+    }
+    .logo img{
+        width: 15%;
     }
 }
