@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination, Navigation, HashNavigation } from 'swiper/modules';
+import { Pagination, Autoplay} from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
@@ -12,15 +12,19 @@ function About() {
   return (
     <>
     <Swiper
-        spaceBetween={30}
+        spaceBetween={10}
+        centeredSlides={true}
+        // autoplay={{
+        //   delay: 3000,
+        //   disableOnInteraction: false,
+        // }}
         hashNavigation={{
           watchState: true,
         }}
         pagination={{
           clickable: true,
         }}
-        navigation={false}
-        modules={[Pagination, Navigation, HashNavigation]}
+        modules={[Autoplay, Pagination]}
         className="mySwiper"
       >
         <SwiperSlide>

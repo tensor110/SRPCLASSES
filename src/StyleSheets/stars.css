@@ -2,7 +2,7 @@
     font-size: 2.5rem;
     font-weight: 600;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 10%;
 }
 #stars-heading span{
     color: var(--color1);
@@ -13,22 +13,22 @@
 }
 #stars{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     width: 100%;
     flex-wrap: wrap;
 }
 #stars-details{
     display: flex;
-    flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     background-color: var(--white);
     height: fit-content;
-    min-width: 15rem;
-    max-width: 25rem;
+    min-width: 15%;
+    max-width: 40%;
     box-shadow: 0 1px 20px 0px var(--black);
     border-radius: 15px;
-    margin: 3% 5% 5% 7%;
+    margin: 5% 0%;
 }
 .image-stars{
     display: flex;
@@ -53,7 +53,7 @@
     align-items: center;
 }
 .stars-talk p{
-    font-size: 1rem;
+    font-size: 0.8rem;
     align-self: center;
     text-align: start;
     width: 80%;
@@ -62,4 +62,23 @@
 .stars-talk p span{
     color: var(--color1);
     font-weight: bold;
+}  
+@media (max-width:860px){
+    #stars-heading{
+        font-size: 2rem;
+    }
+    .stars-talk p{
+        font-size: 0.7rem;
+    }
+}
+@media (max-width:500px){
+    #stars-heading{
+        font-size: 1.5rem;
+    }
+    #stars{
+        justify-content: space-around;
+    }
+    .stars-talk p{
+        font-size: 0.5rem;
+    }
 }

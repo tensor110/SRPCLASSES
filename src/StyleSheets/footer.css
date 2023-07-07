@@ -13,11 +13,35 @@ footer{
 }
 #options{
     display: flex;
-    width: 40%;
-    margin-top: 3%;
     justify-content: space-between;
+    width: 50%;
+    margin-top: 3%;
 }
 #options a{
+    font-size: 1rem;
+    /* width: 120%; */
     text-decoration: none;
     color: rgb(130, 128, 128);
+}
+@media (max-width:860px){
+    #brand, #hashtag{
+        font-size: 1.1rem;
+    }
+    #options{
+        width: 70%;
+    }
+    #options a{
+        font-size: 0.75rem;
+    }
+}
+@media (max-width:500px){
+    #brand, #hashtag{
+        font-size: 1rem;
+    }
+    #options{
+        width: 80%;
+    }
+    #options a{
+        font-size: 0.6rem;
+    }
 }

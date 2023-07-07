@@ -14,15 +14,26 @@ body {
 }
 .mySwiper-stars {
   z-index: -1;
-  width: 80%;
+  width: 92%;
   height: 100%;
   box-shadow: 0 0px 0px 0px var(--black);
-  border-radius: 1rem;
-  margin-top: 3%;
+  margin-top: 0;
+  margin-left: 4%;
+  padding-bottom: 1%;
 }
 .mySwiperslide-stars {
   text-align: center;
   background: var(--white);
   display: flex;
   justify-content: center;
+}
+@media (max-width:860px){
+  .mySwiper-stars {
+    padding-bottom: 3%;
+  }
+}
+@media (max-width:500px){
+  .mySwiper-stars {
+    padding-bottom: 5%;
+  }
 }
