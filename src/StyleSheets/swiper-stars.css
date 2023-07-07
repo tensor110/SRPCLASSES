@@ -16,7 +16,7 @@ body {
   z-index: -1;
   width: 92%;
   height: 100%;
-  box-shadow: 0 0px 0px 0px var(--black);
+  box-shadow: 0 0px 0px 0px var(--shadow);
   margin-top: 0;
   margin-left: 4%;
   padding-bottom: 1%;

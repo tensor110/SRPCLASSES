@@ -5,10 +5,11 @@
 }
 :root{
     --white: white;
-    --black: black;
+    --black: rgb(51, 51, 51);
     --yellow: yellow;
     --color1: #5A4BDA;
     --color2: #EFDA69;
+    --shadow: rgba(83, 83, 83, 0.4);
 } 
 .navbar{
     display: flex;
@@ -20,7 +21,7 @@
     height: 4rem;
     padding: 0 3rem;
     background-color: var(--white);
-    box-shadow: 0 1px 5px 0px var(--black);
+    box-shadow: 0 1px 5px 0px var(--shadow);
 }
 .logo img{
     width: 12%;
