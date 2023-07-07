@@ -43,3 +43,44 @@
     font-size: 1.2rem;
     margin: 5% 0;
 }
+@media (max-width:860px){
+    #test-series-heading p{
+    font-size: 2rem;
+    }
+    #test-series{
+        justify-content: space-evenly;
+    }
+    .test-series1{
+        min-width: 10rem;
+        max-width: 15rem;
+    }
+    .test-series-logo img{
+        width: 30%;
+    }
+    .test-series-name{
+        font-size: 1.2rem;
+    }
+    .test-series-description{
+        font-size: 0.8rem;
+    }
+    .test-series-join{
+        font-size: 1rem;
+    }
+}
+@media (max-width:500px){
+  #test-series-heading p{
+    font-size: 1.5rem;
+    }
+    .test-series-logo img{
+        width: 20%;
+    }
+    .test-series-name{
+        font-size: 1.2rem;
+    }
+    .test-series-description{
+        font-size: 0.8rem;
+    }
+    .test-series-join{
+        font-size: 1rem;
+    }
+}
