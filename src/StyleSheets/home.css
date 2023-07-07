@@ -93,6 +93,7 @@
     }
     .dropdown-icons{
         display: block;
+        top: 3rem;
     }
     .logo img{
         width: 12%;
@@ -113,6 +114,7 @@
     }
     .dropdown-icons{
         display: block;
+        top: 2.5rem;
     }
     .logo img{
         width: 15%;

@@ -14,10 +14,10 @@ function About() {
     <Swiper
         spaceBetween={10}
         centeredSlides={true}
-        // autoplay={{
-        //   delay: 3000,
-        //   disableOnInteraction: false,
-        // }}
+        autoplay={{
+          delay: 3000,
+          disableOnInteraction: false,
+        }}
         hashNavigation={{
           watchState: true,
         }}
@@ -57,7 +57,21 @@ function About() {
             </div>
       </div>
         </SwiperSlide>
-        <SwiperSlide>Slide 1</SwiperSlide>
+        <SwiperSlide>
+        <div id="teacher-about">
+            <div className="image">
+              <img src={image} alt="" />
+            </div>
+            <div className="image-about">
+              <div>
+                Learn From <span>SRP sir</span>
+              </div>
+              <p>B.Tech, M.Tech(Gold medalist)</p>
+              <p>8+ yreas of experience</p>
+              <p>Producer of 100+ ranks at IIT JEE</p>
+            </div>
+      </div>
+        </SwiperSlide>
       </Swiper>
 
     </>

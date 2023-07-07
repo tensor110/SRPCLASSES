@@ -26,10 +26,10 @@ function Stars() {
       <Swiper
         spaceBetween={10}
         centeredSlides={true}
-        // autoplay={{
-        //   delay: 3000,
-        //   disableOnInteraction: false,
-        // }}
+        autoplay={{
+          delay: 3000,
+          disableOnInteraction: false,
+        }}
         hashNavigation={{
           watchState: true,
         }}
@@ -45,7 +45,7 @@ function Stars() {
               <div className="star-details-wrap">
                 <div className="image-stars">
                   <img src={image} alt="" />
-                  <span className="star-name">Anshuman Debasis</span>
+                  {/* <span className="star-name">Anshuman Debasis</span> */}
                 </div>
                 <div className="stars-talk">
                   <p>
@@ -79,9 +79,83 @@ function Stars() {
           </div>
         </SwiperSlide>
         <SwiperSlide className="mySwiperslide-stars">
-         slide 2
+        <div id="stars">
+            <div id="stars-details">
+              <div className="star-details-wrap">
+                <div className="image-stars">
+                  <img src={image} alt="" />
+                  {/* <span className="star-name">Anshuman Debasis</span> */}
+                </div>
+                <div className="stars-talk">
+                  <p>
+                    <span>SRP Sir</span> was instrumental towards my journey in
+                    JEE Mains and Adv. preparation. He acted as a wonderful
+                    mentor. His convivial personality helped me to ask and clear
+                    my doubts in math that I came across in preparation for JEE
+                    Mains and Adv. Along with this he also motivated me and gave
+                    tips on how to effectively stay calm and attempt the paper.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div id="stars-details">
+              <div className="star-details-wrap">
+                <div className="image-stars">
+                  <img src={image} alt="" />
+                </div>
+                <div className="stars-talk">
+                  <p>
+                    <span>SRP Sir</span> was instrumental towards my journey in
+                    JEE Mains and Adv. preparation. He acted as a wonderful
+                    mentor. His convivial personality helped me to ask and clear
+                    my doubts in math that I came across in preparation for JEE
+                    Mains and Adv. Along with this he also motivated me and gave
+                    tips on how to effectively stay calm and attempt the paper.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
           </SwiperSlide>
-        <SwiperSlide className="mySwiperslide-stars">Slide 3</SwiperSlide>
+        <SwiperSlide className="mySwiperslide-stars">
+        <div id="stars">
+            <div id="stars-details">
+              <div className="star-details-wrap">
+                <div className="image-stars">
+                  <img src={image} alt="" />
+                  {/* <span className="star-name">Anshuman Debasis</span> */}
+                </div>
+                <div className="stars-talk">
+                  <p>
+                    <span>SRP Sir</span> was instrumental towards my journey in
+                    JEE Mains and Adv. preparation. He acted as a wonderful
+                    mentor. His convivial personality helped me to ask and clear
+                    my doubts in math that I came across in preparation for JEE
+                    Mains and Adv. Along with this he also motivated me and gave
+                    tips on how to effectively stay calm and attempt the paper.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div id="stars-details">
+              <div className="star-details-wrap">
+                <div className="image-stars">
+                  <img src={image} alt="" />
+                </div>
+                <div className="stars-talk">
+                  <p>
+                    <span>SRP Sir</span> was instrumental towards my journey in
+                    JEE Mains and Adv. preparation. He acted as a wonderful
+                    mentor. His convivial personality helped me to ask and clear
+                    my doubts in math that I came across in preparation for JEE
+                    Mains and Adv. Along with this he also motivated me and gave
+                    tips on how to effectively stay calm and attempt the paper.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
       </Swiper>
     </>
   );
