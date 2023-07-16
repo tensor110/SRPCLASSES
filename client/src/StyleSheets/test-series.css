@@ -1,3 +1,6 @@
+#testseries-container{
+    width: 100vw;
+}
 #test-series-heading p{
     font-size: 2.5rem;
     margin-top: 7%;
@@ -6,7 +9,7 @@
 }
 #test-series-heading span{
     color: var(--color1);
-}
+} 
 #test-series{
     width: 80%;
     margin-left: 10%;
